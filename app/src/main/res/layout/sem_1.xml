@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/watch"
+    android:scrollbarStyle="outsideInset"
+    tools:context=".MainActivity">
+
+
+
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE 1st year 1st semester"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="italic"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hum1107"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hum1108"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MATH1"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHY1"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PHY2"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHEM"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE1101"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE1102"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CSE1108"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Obtained Marks"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"/>
+
+</LinearLayout>

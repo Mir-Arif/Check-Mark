@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/event_page_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event form"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/white"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/eventNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Enter event name"/>
+
+    <EditText
+        android:id="@+id/roonNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Room Number"/>
+
+    <EditText
+        android:id="@+id/stimeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Start time(ex. 00:00)"/>
+
+    <EditText
+        android:id="@+id/etimeET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:hint="End time(ex. 00:00)"/>
+
+    <Button
+        android:id="@+id/event_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/my_border"
+        android:text="Save"/>
+
+
+</LinearLayout>

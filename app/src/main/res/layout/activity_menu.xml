@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/menu"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"/>
+
+    <Button
+        android:id="@+id/taskbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="My Tasks"
+        android:textAllCaps="false"
+        android:background="@drawable/my_border"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/routine_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Routine"
+        android:textAllCaps="false"
+        android:background="@drawable/my_border"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/aboutus_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="About Us"
+        android:textAllCaps="false"
+        android:background="@drawable/my_border"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:textAllCaps="false"
+        android:background="@drawable/my_border"
+        android:textSize="20dp"/>
+
+</LinearLayout>
